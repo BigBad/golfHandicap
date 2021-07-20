@@ -6,14 +6,6 @@ use PHPUnit\Framework\TestCase;
 class HandicapTest extends TestCase
 {
 
-    public function testGetScores()
-    {
-        $scores = [75, 83, 105];
-        $handicap = new Handicap($scores);
-
-        $this->assertEquals($scores, $handicap->getScores());
-    }
-
     public function testGetDifferential()
     {
         $scores = [75, 83, 105, 85, 95, 83];

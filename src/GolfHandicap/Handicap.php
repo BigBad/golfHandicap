@@ -19,13 +19,6 @@ class Handicap
         $this->numberOfScores = count($this->scores);
     }
 
-    /**
-     * @return array
-     */
-    public function getScores()
-    {
-        return $this->scores;
-    }
 
     /**
      * @return mixed
