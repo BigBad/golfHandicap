@@ -2,9 +2,9 @@
     "name": "bigbad/golfhandicap",
     "type": "library",
     "description": "PHP package to calculate a USGA handicap",
-        "autoload": {
-        "psr-0": {
-            "GolfHandicap\\": "src/GolfHandicap"
+    "autoload": {
+       "psr-4": {
+            "GolfHandicap\\": "src/GolfHandicap/"
         }
     },
     "authors": [
