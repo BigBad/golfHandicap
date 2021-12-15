@@ -4,7 +4,7 @@
     "description": "PHP package to calculate a USGA handicap",
         "autoload": {
         "psr-0": {
-            "GolfHandicap\\": "src"
+            "GolfHandicap\\": "src/GolfHandicap"
         }
     },
     "authors": [
