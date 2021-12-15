@@ -1,8 +1,8 @@
 {
     "name": "bigbad/golfhandicap",
-    "description": "PHP package to calculate a USGA handicap",
     "type": "library",
-    "autoload": {
+    "description": "PHP package to calculate a USGA handicap",
+        "autoload": {
         "psr-0": {
             "GolfHandicap\\": "src"
         }
